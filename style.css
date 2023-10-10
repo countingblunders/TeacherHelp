@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Ubuntu:wght@300;400;500&display=swap');
+    
+*{
+    font-family: 'Ubuntu', sans-serif;
+    background: var(--black)
+}
+:root{
+    --black: #161925;
+    --orange: #E6AA68;
+    --lightblue: #9FD8CB;
+    --darkblue: #3B60E4;
+    --purple: #8C86AA;
+}
+nav{
+    margin-bottom: 30vh;
+}
+#search{
+    display:flex;
+}
+#searchBar{
+    margin-left: 25vw;
+    margin-right: 5vw;
+    align-items: center;
+    background: var(--orange);
+    border: none;
+    width: 50vw;
+    height: 7vh;
+    border-radius: 2px;
+
+}
+#searchBtn{
+    border: none;
+    color: var(--black);
+    background: var(--lightblue);
+    width: 10vw;
+    border-radius: 2px;
+    font-weight: bold;
+}
+#searchBtn:hover{
+    background: var(--orange);
+    transition: 0.2s;
+    transform: translateY(-5px);
+}
+#searchBar:hover{
+    transform: translateY(-5px);
+    transition: 0.2s;
+}
+::placeholder{
+    text-align: center;
+    color: var(--black);
+}
+
+#teacherDashboard{
+    margin-top: 10vh;
+}
+#createAssign{
+    width: 15vw;
+    height: 5vh;
+    border: none;
+    color: var(--black);
+    background: var(--lightblue);
+    border-radius: 2px;
+    font-weight: bold;
+    margin: 15vh 5vw 5vh 15vw;
+}
+#addStudent{
+    width: 10vw;
+    height: 5vh;   
+    border: none;
+    color: var(--black);
+    background: var(--lightblue);
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+#showStudent{
+    width: 10vw;
+    height: 5vh;   
+    border: none;
+    color: var(--black);
+    background: var(--lightblue);
+    border-radius: 2px;
+    font-weight: bold;
+    margin-left: 5vw;
+}
+
+#createAssign:hover{
+    background: var(--orange);
+    transition: 0.2s;
+    transform: translateY(-5px);
+}
+#addStudent:hover{
+    background: var(--orange);
+    transition: 0.2s;
+    transform: translateY(-5px);
+}
+#showStudent:hover{
+    background: var(--orange);
+    transition: 0.2s;
+    transform: translateY(-5px);
+}

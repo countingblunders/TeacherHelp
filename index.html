@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TeacherHelp++</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<nav>
+    <h1 style="color:var(--lightblue)">TeacherHelp++</h1>
+</nav>
+
+<div id="search">
+    <input type="search" name="searchBar" id="searchBar" placeholder="Enter the code given by the Teacher"> <br>
+    <button onclick="verifyRoom()" id="searchBtn">Enter Room</button>
+</div>
+
+<div id="main">
+    <div class="h1">
+
+    </div>
+</div>
+
+<div id="teacherDashboard">
+    <button id="createAssign" onclick="createAssign()">Create an announcement</button>
+    <button id="addStudent" onclick="addStudent()">Add a student</button>
+    <button id="showStudent" onclick="showStudent()">Show Students</button>
+    <div class="announcements">
+        <div class="card">
+
+        </div>
+        
+    </div>
+
+</div>
+
+<div id="studentDashboard">
+    <div class="announcements">
+        <div class="card"></div>
+    </div>
+
+</div>
+
+
+</body>
+<script src="script.js"></script>
+</html>
