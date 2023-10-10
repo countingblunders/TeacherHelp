@@ -2,13 +2,13 @@
 let Room = [
     {
         roomCode: "1",
-        tCode: "hackeraayabhaihacker",
+        tCode: "t1",
         sCode: ["Soham", "Pawan"],
         rContent: []
     },
     {
         roomCode: "T002",
-        tCode: "bokachoda",
+        tCode: "t2",
         sCode: ["Soham", "Susie", "Pawan"],
         rcontent: [{}]
     }
